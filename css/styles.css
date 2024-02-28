@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    width: 100%;
+    width: 50%;
     padding: 1%;
     text-align:center
     
@@ -26,7 +26,6 @@ nav {
 }
 
 ul {
-    width: 50%;
     margin-left: auto;
 }
 
@@ -79,3 +78,51 @@ footer {
     vertical-align: top;
     margin-left: 47%;
 }
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+   
+}
+h1 {
+    font-size: 36;
+}
+
+#myWork-Grid {
+    background-color: #4D7B95;
+   color: white;
+   display: grid;
+   grid-template-rows: 3fr 3fr 3fr max-content;
+}
+
+#mySkills {
+    background-color: white;
+}
+
+.skills {
+    text-align: center;
+}
+
+.work {
+    text-align: center;
+    font-size: 36;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600){
+    
+    }
