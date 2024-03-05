@@ -129,3 +129,7 @@ h1 {
         color: yellow;
     }
 }
+
+.nav-item {
+    align-items: center;
+}
